@@ -1,5 +1,3 @@
-Name - Jatin
-Entry Number- 2020CSB1090
 
 1)How to Execute Program?
 
