@@ -1,0 +1,145 @@
+*, *::after , *::before{
+    font-weight: bolder;
+
+    font-family: 'Anek Telugu', sans-serif;
+}
+body{
+ 
+ background: linear-gradient(to right,hsl(200, 100%, 50%) ,hsl(175, 100%, 50%));
+ align-items: center;
+}
+#digital{    margin: auto;
+    
+    position: relative;
+    padding-inline-start: 7px;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5%;
+    width: 11%;
+    margin-top: 2%;
+   
+
+}
+#stpbtn{
+    position: relative;
+    top: 10px;
+}
+.clock{
+    margin: auto;
+    top: 10%;
+    align-items: center;
+    height: 35vw;
+    width: 35vw;
+    background-color: rgb(227, 248, 252);
+    opacity: 0.75;
+    border-radius: 50% ;
+   border: solid black 3px;
+   position: relative;
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
+.clock .number{
+position: absolute;
+height: 100%;
+width: 100%;
+text-align:center;
+transform: rotate(0deg);
+font-size: 1.5rem;
+}
+
+.clock .number1{
+    transform: rotate(30deg);
+}
+.clock .number2{
+    transform: rotate(60deg);
+}
+.clock .number3{
+    transform: rotate(90deg);
+}
+.clock .number4{
+    transform: rotate(120deg);
+}
+
+.clock .number5{
+    transform: rotate(150deg);
+}
+.clock .number6{
+    transform: rotate(180deg);
+}
+.clock .number7{
+    transform: rotate(210deg);
+}
+.clock .number8{
+    transform: rotate(240deg);
+}
+.clock .number9{
+    transform: rotate(270deg);
+}
+.clock .number10{
+    transform: rotate(300deg);
+}
+.clock .number11{
+    transform: rotate(330deg);
+}
+
+.clock::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    z-index: 11;
+    height: 2vw;
+    width: 2vw;
+    top: 46.5%;
+    right: 46.5%;
+    border-radius: 50%;
+}
+.hour{
+    
+    position: absolute;
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;
+    background-color: black; 
+    border: 1px solid white; 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    z-index: 9;
+   
+}
+.minute{ 
+   
+    position: absolute;
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+    border: 1px solid white;
+    background-color: black;  border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    z-index: 10;
+   
+}
+.second{  
+    position: absolute;
+    width: 0.5%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%; 
+    opacity: 0.8;  
+    border: 1px solid white;
+    background-color: red; border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    z-index: 11;
+    
+}
