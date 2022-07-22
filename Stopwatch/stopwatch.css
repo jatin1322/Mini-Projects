@@ -1,0 +1,38 @@
+*, *::after , *::before{
+    font-weight: bolder;
+
+    font-family: 'Anek Telugu', sans-serif;
+}
+body{
+ 
+    background: linear-gradient(to right,hsl(200, 100%, 50%) ,hsl(175, 100%, 50%));
+    align-items: center;
+   }
+#stopwatch{
+    
+    /* background: linear-gradient(to right,rgb(5, 130, 179) ,rgb(119, 232, 44)); */
+    height: 80%;
+    width: 30%;
+    position: relative;
+    display: block;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+#stopwatch .digit{
+    font-size: 35px;
+}
+#stopwatch .txt{
+    font-size: 15px;
+}
+.btn{
+    
+    font-size: 25px;
+    color: black;
+    background-color: rgb(227, 248, 252);
+    border: 0px;
+    cursor: pointer;
+}
